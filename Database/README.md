@@ -1,18 +1,64 @@
+# Every Juana
+
+Welcome to **Every Juana**, a comprehensive database system designed for managing user profiles, company listings, and applicant applications in the Philippines.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Database Setup](#database-setup)
+  - [Running the Application](#running-the-application)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+**Every Juana** is a Java-based database application aimed at providing a robust platform for:
+- Users to manage their profiles and applications.
+- Admins to oversee company listings and applicant details.
+- Efficient data handling and user-friendly interface.
+
+## Features
+
+### User Management
+- Create, view, update, and delete user profiles.
+- Upload resumes and track application history.
+
+### Company Management
+- Add, edit, and delete company listings.
+- Admin dashboard for company statistics and management.
+
+### Application Dashboard
+- Monitor applicant applications and statuses.
+- Generate reports for admin insights.
+
+### Authentication and Authorization
+- Secure login and access control.
+
+### Database Integration
+- MySQL database for data storage.
+
+### User Interface
+- JavaFX-based responsive UI.
+
+### Documentation
+- Comprehensive README and setup instructions.
+- Detailed user and developer documentation.
+
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Prerequisites
 
-## Folder Structure
+- JDK 8 or higher
+- MySQL server
 
-The workspace contains two folders by default, where:
+### Installation
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your_username/EveryJuana.git
+   cd EveryJuana
