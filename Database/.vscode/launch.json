@@ -1,0 +1,29 @@
+{
+   
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "FinalProject_Database_b2482a25"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Database_bee7e4e5",
+            "vmArgs": "--module-path /Users/goodboykit/Downloads/DatabaseFinal/Database/javafx-sdk-21.0.2/lib --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
+

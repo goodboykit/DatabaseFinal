@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "FinalProject_Database",
+            "vmArgs": "--module-path /Users/goodboykit/javafx-sdk-21.0.2/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "--module-path /Users/goodboykit/javafx-sdk-21.0.2/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "appe",
+            "request": "launch",
+            "mainClass": "appe",
+            "projectName": "FinalProject_Database",
+            "vmArgs": "--module-path /Users/goodboykit/javafx-sdk-21.0.2/lib --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#ItsClicked" prefHeight="200.0" prefWidth="750.0" styleClass="anchorpanecard" stylesheets="@../CSS/user.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.cardController">
+   <children>
+      <HBox layoutY="148.0" prefHeight="52.0" prefWidth="224.0" />
+      <AnchorPane layoutX="8.0" layoutY="11.0" prefHeight="159.0" prefWidth="215.0">
+         <children>
+            <ImageView fx:id="company_image" fitHeight="131.0" fitWidth="138.0" layoutX="43.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../bin/Icons-Database/building.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label fx:id="company_name" alignment="CENTER" contentDisplay="BOTTOM" layoutX="243.0" layoutY="12.0" prefHeight="48.0" prefWidth="474.0" text="Company Name">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+         <font>
+            <Font name="FSP DEMO - Organetto Cnd Bold Regular" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="companyAddress" layoutX="235.0" layoutY="67.0" prefHeight="25.0" prefWidth="509.0" text="Company Address">
+         <font>
+            <Font name="Poppins Regular" size="13.0" />
+         </font></Label>
+      <Label layoutX="236.0" layoutY="117.0" prefHeight="23.0" prefWidth="171.0" text="Available Job Position:">
+         <font>
+            <Font name="Poppins Regular" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="jobpositionCount" layoutX="389.0" layoutY="117.0" prefHeight="23.0" prefWidth="171.0" text="2">
+         <font>
+            <Font name="Poppins Regular" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="companyEmail" layoutX="235.0" layoutY="92.0" prefHeight="25.0" prefWidth="505.0" text="santiagonikos@gmail.com">
+         <font>
+            <Font name="Poppins Regular" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

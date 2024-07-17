@@ -1,0 +1,288 @@
+.custom-pane {
+    -fx-background-color: transparent; /* Set the initial background color to transparent */
+    -fx-background-radius: 25 0 0 25; /* Set different radius values for each corner (top-left, top-right, bottom-right, bottom-left) */
+    -fx-cursor: hand; 
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.5, 0, 0); 
+    -fx-transition-property: background-color, background-radius; 
+    -fx-transition-duration: 0.10s; 
+}
+
+.custom-pane:hover {
+    -fx-background-color: #FFE8AC; 
+    -fx-background-radius: 70 0 0 70; /* Change radius for the top-left and bottom-right corners on hover */
+}
+
+.custom-pane:pressed {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.5, 0, 0);
+    -fx-background-color: derive(#FFE8AC, 60%); 
+
+    -fx-scale-x: 1.15;
+    -fx-scale-y: 1.15;
+    -fx-transition-property: scale;
+    -fx-transition-duration: 0.5s;
+}
+
+
+
+
+.scrollpaneee {
+    -fx-background-color: linear-gradient(to top, #FDF1BA, #f6da75);
+}
+
+
+.custom-pane2 {
+    -fx-background-color: transparent; /* Set the initial background color to transparent */
+    -fx-background-radius: 25 0 0 25; /* Set different radius values for each corner (top-left, top-right, bottom-right, bottom-left) */
+    -fx-cursor: hand; 
+    -fx-transition-property: background-color, background-radius; 
+    -fx-transition-duration: 0.10s; 
+}
+
+.custom-pane2:hover {
+    -fx-background-color: #75A8E9; 
+    -fx-background-radius: 50 0 0 50; /* Change radius for the top-left and bottom-right corners on hover */
+}
+
+.custom-pane2:pressed {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.5, 0, 0);
+    -fx-background-color: derive(#FFFFFF, 60%); 
+
+    -fx-scale-x: 1.15;
+    -fx-scale-y: 1.15;
+    -fx-transition-property: scale;
+    -fx-transition-duration: 0.5s;
+}
+
+.LogoutCustomPane {
+    -fx-background-color: transparent; /* Set the initial background color to transparent */
+    -fx-background-radius: 25 0 0 25; /* Set different radius values for each corner (top-left, top-right, bottom-right, bottom-left) */
+    -fx-cursor: hand; 
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.5, 0, 0); 
+    -fx-transition-property: background-color, background-radius; 
+    -fx-transition-duration: 0.10s; 
+}
+
+.LogoutCustomPane:hover {
+    -fx-background-color: #EE1313; 
+    -fx-background-radius: 50 0 0 50; /* Change radius for the top-left and bottom-right corners on hover */
+}
+
+.LogoutCustomPane:pressed {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.5, 0, 0);
+    -fx-background-color: derive(#FFFFFF, 60%); 
+
+    -fx-scale-x: 1.15;
+    -fx-scale-y: 1.15;
+    -fx-transition-property: scale;
+    -fx-transition-duration: 0.5s;
+}
+
+
+.custom-label {
+    -fx-underline: false;
+    -fx-cursor: hand;
+    -fx-transition-duration: 0.3s;
+}
+
+.custom-label:hover {
+    -fx-text-fill: #EE1313(130, 8, 8); /* Change color on hover */
+    -fx-underline: true;
+}
+
+.custom-label:pressed {
+    -fx-scale-x: 0.9; /* Shrink animation on press */
+    -fx-scale-y: 0.9; /* Shrink animation on press */
+}
+
+.custom2-label {
+    -fx-underline: false;
+    -fx-cursor: hand;
+    -fx-transition-duration: 0.3s;
+}
+
+.custom2-label:hover {
+    -fx-background-color: transparent; /* Set background color to transparent */
+    -fx-text-fill: #75A8E9; /* Set text color on hover */
+    -fx-underline: false;
+}
+
+.custom2-label:pressed {
+    -fx-scale-x: 0.9; /* Shrink animation on press */
+    -fx-scale-y: 0.9; /* Shrink animation on press */
+}
+
+.custom-textfield {
+    -fx-background-color: white; /* Transparent white gradient background */
+    -fx-background-radius: 10; /* Rounded border corners */
+    -fx-border-radius: 10; /* Rounded border corners */
+    -fx-border-color: #cccccc; /* Border color */
+    -fx-border-width: 1; /* Border width */
+    -fx-padding: 5; /* Padding */
+}
+.gradient2 {
+    -fx-background-color: linear-gradient(to bottom right, #f9efd2, #75A8E9);
+}
+
+.gradient3 {
+    -fx-background-color: linear-gradient(to top right , #d5cebc, #75A8E9);
+}
+
+.gradient4 {
+    -fx-background-color: linear-gradient(to top right , #FFE8AC, #FFE8AC);
+}
+
+
+
+
+.custom-textfield:pressed, .custom-textfield:focused {
+    -fx-border-color: #007bff; /* Blue border color on press or focus */
+}
+
+.date-picker {
+    -fx-background-color: white; /* Background color */
+    -fx-border-radius: 20; /* Rounded border corners */
+    -fx-border-color: #cccccc; /* Border color */
+    -fx-border-width: 1; /* Border width */
+}
+
+.buttonnn {
+    -fx-background-color: white; /* Transparent background */
+    -fx-background-radius: 20; /* Rounded border corners */
+    -fx-border-radius: 10; /* Rounded border corners */
+    -fx-border-color: transparent; /* Transparent border color */
+    -fx-border-width: 1; /* Border width */
+    -fx-padding: 10 20; /* Padding */
+    -fx-font-size: 14px; /* Font size */
+    -fx-text-fill: black; /* Text color */
+}
+
+.buttonnn:hover {
+    -fx-background-color: #75A8E9; /* Background color on hover */
+}
+
+.buttonnn:pressed {
+    -fx-scale-x: 0.9; /* Shrink effect on press */
+    -fx-scale-y: 0.9; /* Shrink effect on press */
+}
+
+
+.AnchorPaneImage {
+    -fx-background-color: white; /* Set background color to white */
+    -fx-background-radius: 15px;
+
+
+    -fx-border-color: black; /* Set border color to black */
+    -fx-border-width: 2px; /* Set border width to 2 pixels */
+    -fx-border-radius: 15px; /* Add border radius for rounded corners */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 0); /* Add drop shadow effect */
+}
+
+.anchorpanecard {
+    -fx-background-color: white; /* Set background color to white */
+    -fx-background-radius: 15; 
+    -fx-border-radius: 10; 
+    -fx-border-width: 1; /* Border width */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 20, 0, 0, 0); /* Shadow effect */
+    -fx-cursor: hand; /* Hand cursor on hover */
+    -fx-transition-duration: 0.5s; /* Transition duration */
+}
+
+.anchorpanecard:hover {
+    -fx-background-color: linear-gradient(to top , #FFE8AC, #FFE8AC);
+    -fx-cursor: hand; /* Change cursor on hover */
+    -fx-scale-x: 1.15; 
+    -fx-scale-y: 1.15;
+    -fx-transition: all 0.5s; 
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 20, 0, 0, 0); /* Shadow effect on hover */
+}
+
+
+.anchorpanecard:pressed {
+    -fx-scale-x: 0.87; /* Shrink animation on press */
+    -fx-scale-y: 0.87; /* Shrink animation on press */
+}
+.date-picker-popup {
+    -fx-background-color: #FFE8AC;
+}
+
+.companiesApplyButtton {
+    -fx-background-color:  #FFFFFF;
+    -fx-background-radius: 25px;
+    -fx-padding: 10px 20px;
+    -fx-border-color: #000000; /* Set initial border color to black */
+    -fx-border-width: 2px;
+    -fx-border-radius: 25px; /* Apply border radius */
+    -fx-cursor: hand;
+
+}
+
+.companiesApplyButtton:hover {
+    -fx-background-color: #75A8E9; 
+    -fx-border-color: transparent; 
+    -fx-text-fill: #f4f4f4; 
+    -fx-border-color: transparent; 
+
+}
+
+.companiesApplyButtton:pressed {
+    -fx-scale-x: 0.88; /* Shrink button width by 5% */
+    -fx-scale-y: 0.88; /* Shrink button height by 5% */
+}
+.companiesApplyButtton {
+    -fx-background-color:  #FFFFFF;
+    -fx-background-radius: 25px;
+    -fx-padding: 10px 20px;
+    -fx-border-color: #000000; /* Set initial border color to black */
+    -fx-border-width: 2px;
+    -fx-border-radius: 25px; /* Apply border radius */
+    -fx-cursor: hand;
+
+}
+
+.Savebutton {
+    -fx-background-color:  #FFFFFF;
+    -fx-background-radius: 20; /* Rounded border corners */
+    -fx-border-radius: 20; /* Rounded border corners */
+    -fx-border-color: #000000; /* Transparent border color */
+    -fx-border-width: 1.5; /* Border width */
+    -fx-padding: 10 20; /* Padding */
+    -fx-font-size: 14px; /* Font size */
+    -fx-text-fill: black; /* Text color */
+    -fx-cursor: hand;
+
+}
+
+.Savebutton:hover {
+    -fx-background-color: #79F165; 
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 0); /* Shadow effect on hover */
+
+}
+
+.Savebutton:pressed {
+    -fx-scale-x: 0.88; /* Shrink button width by 5% */
+    -fx-scale-y: 0.88; /* Shrink button height by 5% */
+}
+
+.ChangeDetailsbuttonnn {
+    -fx-background-color:  #FFFFFF;
+    -fx-background-radius: 20; /* Rounded border corners */
+    -fx-border-radius: 20; /* Rounded border corners */
+    -fx-border-color: #000000; /* Transparent border color */
+    -fx-border-width: 1.5; /* Border width */
+    -fx-padding: 10 20; /* Padding */
+    -fx-font-size: 14px; /* Font size */
+    -fx-text-fill: black; /* Text color */
+    -fx-cursor: hand;
+}
+
+.ChangeDetailsbuttonnn:hover {
+    -fx-background-color: #75A8E9; /* Background color on hover */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 0); /* Shadow effect on hover */
+    
+}
+
+.ChangeDetailsbuttonnn:pressed {
+    -fx-scale-x: 0.9; /* Shrink effect on press */
+    -fx-scale-y: 0.9; /* Shrink effect on press */
+}
+

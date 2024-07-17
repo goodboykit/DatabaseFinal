@@ -1,0 +1,292 @@
+.header{
+    -fx-background-color: linear-gradient(to bottom right, #098c53, #246861);
+    -fx-border-color: #fff;
+    -fx-border-width: 0 0 .8px 0;
+}
+
+.nav-form{
+    -fx-background-color: linear-gradient(to bottom right, #FFFFFF, #FFFFFF);
+}
+
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, #000000(0,0,0,0.5), 5,0,0,0);
+}
+
+.white-bg{
+    -fx-background-color: #fff;
+}
+
+.radius{
+    -fx-background-radius: 15px;
+}
+.ComapaniesDetailsradius{
+    -fx-background-radius: 8px;
+}
+
+.logout{
+    -fx-background-color: #106abf;
+    -fx-padding: 5px;
+    -fx-cursor: hand;
+    -fx-background-radius: 50px;
+}
+.logout:hover{
+    -fx-background-color: #a71931;
+}
+
+.transparent{
+    -fx-background-color: transparent;
+}
+
+.tablevieww{
+    -fx-background-color: white;
+    -fx-padding: 0;
+    -fx-border-color: grey;
+    -fx-border-radius: 5px;
+    -fx-border-width: 2px;
+}
+.tablevieww .column-header-background{
+    -fx-background-color: #717070;
+    
+    -fx-background-radius: 5px 5px 0 0;
+    -fx-background-insets: 0 0 0 0;
+}
+.tablevieww .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size: 40px;
+}
+.tablevieww .column-header .label{
+    -fx-text-fill: #fff;
+}
+.Companiestablevieww{
+    -fx-background-color: #FFE8AC;
+    -fx-padding: 0;
+    -fx-border-color: #FFE8AC;
+    -fx-border-radius: 5px;
+    -fx-border-width: 2px;
+}
+.Companiestablevieww .column-header-background{
+    -fx-background-color: #75A8E9;
+    
+    -fx-background-radius: 5px 5px 0 0;
+    -fx-background-insets: 0 0 0 0;
+}
+.Companiestablevieww .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size: 40px;
+}
+.Companiestablevieww .column-header .label{
+    -fx-text-fill: #000000;
+}
+
+
+
+
+
+
+.tableview2 .column-header-background{
+    -fx-background-color: linear-gradient(to bottom right , #FFD600, #FFD600);
+    -fx-background-radius: 5px 5px 0 0;
+    -fx-background-insets: 0 0 0 0;
+}
+.tableview2 .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size: 40px;
+}
+.tableview2 .column-header .label{
+    -fx-text-fill: #000000;
+}
+
+.tableview3 .column-header-background{
+    -fx-background-color: linear-gradient(to top right , #988961, #0a3e82);
+    -fx-background-radius: 5px 5px 0 0;
+    -fx-background-insets: 0 0 0 0;
+}
+
+.tableview3 .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size: 40px;
+}
+
+.tableview3 .column-header .label{
+    -fx-text-fill: #fff;
+}
+
+.addjobTable .column-header-background{
+    -fx-background-color: linear-gradient(to top right , #FFE8AC, #FFE8AC);
+    -fx-background-radius: 5px 5px 0 0;
+    -fx-background-insets: 0 0 0 0;
+}
+
+.addjobTable .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size: 40px;
+}
+
+.addjobTable .column-header .label{
+    -fx-text-fill: #000000;
+}
+
+.btn{
+    -fx-background-color: linear-gradient(to bottom right, #fff, #fff); 
+    -fx-cursor: hand;
+    -fx-text-fill: #000000;
+    -fx-font-size: 14px;
+}
+
+.btn:hover{
+    -fx-background-color: linear-gradient(to bottom right, #FFE8AC, #FFE8AC); 
+}
+
+.btn:pressed{
+    -fx-scale-x: 0.88; /* Shrink button width by 5% */
+    -fx-scale-y: 0.88; 
+}
+
+.btn2 {
+    -fx-background-color: linear-gradient(to bottom right, #913838, #7b602c);
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+}
+
+.btn2:hover {
+    -fx-background-color: linear-gradient(to bottom right, #b94f4f, #8c2121);
+}
+
+.btn2:pressed {
+    -fx-scale-x: 0.88; /* Shrink button width by 5% */
+    -fx-scale-y: 0.88;
+}
+
+.btn3 {
+    -fx-background-color: linear-gradient(to bottom right, #2d732d, #2d4f6e);
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+}
+
+.btn3:hover {
+    -fx-background-color: linear-gradient(to bottom right, #5ea35e, #4a74a7);
+}
+
+.btn3:pressed {
+    -fx-scale-x: 0.88; /* Shrink button width by 5% */
+    -fx-scale-y: 0.88;
+}
+
+.btn4 {
+    -fx-background-color: linear-gradient(to bottom right, #485499, #5b217a);
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+}
+
+.btn4:hover {
+    -fx-background-color: linear-gradient(to bottom right, #399a8f, #82397a);
+}
+
+.btn4:pressed {
+    -fx-scale-x: 0.88; /* Shrink button width by 5% */
+    -fx-scale-y: 0.88;
+}
+
+.dashboard {
+    -fx-background-color: linear-gradient(to bottom right, #75A8E9, #75A8E9); /* Gradient background from blue to lighter blue */
+    -fx-border-radius: 10px; /* Rounded border */
+    -fx-border-color: #5c97bf; /* Border color */
+
+    /* Animation */
+    -fx-background-insets: 0;
+    -fx-background-radius: 10px;
+    -fx-border-width: 0.5px;
+    -fx-border-style: solid;
+    -fx-border-color: #000000; /* Initial border color */
+    -fx-transition: border-color 0.3s;
+}
+
+.dashboard:hover {
+    -fx-background-color: linear-gradient(to bottom, #517eb2, #c4d7fa); /* Gradient background from light yellow to darker yellow on hover */
+    -fx-border-color: #9cb8c8; /* Border color on hover */
+}
+.adminInterface {
+    -fx-background-color: linear-gradient(to bottom right, #75A8E9, #75A8E9);
+}
+
+.viewApplicationbutton {
+    -fx-background-color:  #FFFFFF;
+    -fx-background-radius: 20px;
+    -fx-padding: 10px 20px;
+    -fx-border-color: #000000; /* Set initial border color to black */
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 20px; /* Apply border radius */
+    -fx-cursor: hand;
+
+}
+
+.viewApplicationbutton:hover {
+    -fx-background-color: #FFE8AC; 
+
+}
+
+.viewApplicationbutton:pressed {
+    -fx-scale-x: 0.88; /* Shrink button width by 5% */
+    -fx-scale-y: 0.88; /* Shrink button height by 5% */
+}
+
+.pane:hover {
+    -fx-effect: dropshadow(gaussian, #000000, 10, 0.5, 0, 0);  /* Shadow effect on hover */
+}
+
+.AddjobButton {
+    -fx-background-color:  #FFFFFF;
+    -fx-background-radius: 10px;
+    -fx-padding: 5px 10px;
+    -fx-border-color: #000000; /* Set initial border color to black */
+    -fx-border-width: 1.5px;    
+    -fx-border-radius: 10px; /* Apply border radius */
+    -fx-cursor: hand;
+}
+
+.AddjobButton:hover {
+    -fx-background-color: #FFE8AC; 
+
+}
+
+.AddjobButton:pressed {
+    -fx-scale-x: 0.88; /* Shrink button width by 5% */
+    -fx-scale-y: 0.88; /* Shrink button height by 5% */
+}
+
+
+.companiesApplyButtton {
+    -fx-background-color:  #FFFFFF;
+    -fx-background-radius: 25px;
+    -fx-padding: 10px 20px;
+    -fx-border-color: #000000; /* Set initial border color to black */
+    -fx-border-width: 2px;
+    -fx-border-radius: 25px; /* Apply border radius */
+    -fx-cursor: hand;
+
+}
+.ChangeDetailsbuttonnn {
+    -fx-background-color:  #FFFFFF;
+    -fx-background-radius: 20; /* Rounded border corners */
+    -fx-border-radius: 20; /* Rounded border corners */
+    -fx-border-color: #000000; /* Transparent border color */
+    -fx-border-width: 1.5; /* Border width */
+    -fx-padding: 5 10; /* Padding */
+    -fx-font-size: 20px; /* Font size */
+    -fx-text-fill: black; /* Text color */
+    -fx-cursor: hand;
+}
+
+.ChangeDetailsbuttonnn:hover {
+    -fx-background-color: #75A8E9; /* Background color on hover */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0, 0, 0); /* Shadow effect on hover */
+    
+}
+
+.ChangeDetailsbuttonnn:pressed {
+    -fx-scale-x: 0.9; /* Shrink effect on press */
+    -fx-scale-y: 0.9;
+}

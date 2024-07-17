@@ -1,0 +1,336 @@
+.gradient {
+    -fx-background-color: linear-gradient(to top, #FFFFFF, #75A8E9);
+}
+
+.regbackground {
+    -fx-background-color: #FFE8AC;
+
+}
+
+.importprofilebuttton {
+    -fx-background-color:  #FFFFFF;
+    -fx-background-radius: 25px;
+    -fx-padding: 10px 20px;
+    -fx-border-color: #000000; /* Set initial border color to black */
+    -fx-border-width: 2px;
+    -fx-border-radius: 25px; /* Apply border radius */
+    -fx-cursor: hand;
+
+}
+
+.importprofilebuttton:hover {
+    -fx-background-color: #75A8E9; 
+    -fx-border-color: transparent; 
+    -fx-text-fill: #f4f4f4; 
+    -fx-border-color: transparent; 
+
+}
+.importprofilebuttton:pressed {
+    -fx-scale-x: 0.88; /* Shrink button width by 5% */
+    -fx-scale-y: 0.88; /* Shrink button height by 5% */
+}
+
+.savebuttton {
+    -fx-background-color:  #FFFFFF;
+    -fx-background-radius: 15px;
+    -fx-padding: 10px 20px;
+    -fx-border-color: #000000; /* Set initial border color to black */
+    -fx-border-width: 2px;
+    -fx-border-radius: 15px; /* Apply border radius */
+    -fx-cursor: hand;
+
+}
+
+.savebuttton:hover {
+    -fx-background-color: #75A8E9; 
+    -fx-text-fill: #f4f4f4; 
+
+
+}
+
+.savebuttton:pressed {
+    -fx-scale-x: 0.88; /* Shrink button width by 5% */
+    -fx-scale-y: 0.88; /* Shrink button height by 5% */
+}
+
+.cancelbuttton {
+    -fx-background-color:  #FFFFFF;
+    -fx-background-radius: 20; /* Rounded border corners */
+    -fx-border-radius: 20; /* Rounded border corners */
+    -fx-border-color: #000000; /* Transparent border color */
+    -fx-border-width: 1.5; /* Border width */
+    -fx-padding: 10 20; /* Padding */
+    -fx-font-size: 14px; /* Font size */
+    -fx-text-fill: black; /* Text color */
+    -fx-cursor: hand;
+
+}
+
+.cancelbuttton:hover {
+    -fx-background-color: #F86161; 
+    -fx-border-color: #000000; /* Transparent border color */
+    -fx-border-width: 1.5; /* Border width */
+}
+
+.cancelbuttton:pressed {
+    -fx-scale-x: 0.88; /* Shrink button width by 5% */
+    -fx-scale-y: 0.88; /* Shrink button height by 5% */
+}
+
+.loginbuttton {
+    -fx-background-color:  #FFFFFF  ;
+    -fx-background-radius: 25px;
+    -fx-padding: 10px 20px;
+    -fx-border-color: #000000; /* Set initial border color to black */
+    -fx-border-width: 2px;
+    -fx-border-radius: 25px; /* Apply border radius */
+    -fx-cursor: hand;
+
+}
+
+.loginbuttton:hover {
+    -fx-background-color: #000000; 
+    -fx-border-color: transparent; 
+    -fx-text-fill: #f4f4f4; 
+    -fx-border-color: transparent; 
+
+}
+
+.loginbuttton:pressed {
+    -fx-scale-x: 0.88; /* Shrink button width by 5% */
+    -fx-scale-y: 0.88; /* Shrink button height by 5% */
+}
+.userLoginbuttton {
+    -fx-background-color:  white;
+    -fx-background-radius: 25px;
+    -fx-padding: 10px 20px;
+    -fx-border-color: #000000; /* Set initial border color to black */
+    -fx-border-width: 2px;
+    -fx-text-fill: #000000; 
+    -fx-border-radius: 25px; /* Apply border radius */
+    -fx-cursor: hand;
+
+}
+
+.userLoginbuttton:hover {
+    -fx-background-color: #75A8E9; 
+    -fx-border-color: transparent; 
+    -fx-text-fill: #FFFFFF; 
+    -fx-border-color: transparent; 
+
+}
+
+.userLoginbuttton:pressed {
+    -fx-scale-x: 0.88; /* Shrink button width by 5% */
+    -fx-scale-y: 0.88; /* Shrink button height by 5% */
+}
+.AdminLoginbuttton {
+    -fx-background-color:  #FFFFFF  ;
+    -fx-background-radius: 25px;
+    -fx-padding: 10px 20px;
+    -fx-border-color: #000000; /* Set initial border color to black */
+    -fx-border-width: 2px;
+    -fx-border-radius: 25px; /* Apply border radius */
+    -fx-cursor: hand;
+
+}
+
+.AdminLoginbuttton:hover {
+    -fx-background-color: #75A8E9; 
+    -fx-border-color: transparent; 
+    -fx-text-fill: #f4f4f4; 
+    -fx-border-color: transparent; 
+
+}
+
+.AdminLoginbuttton:pressed {
+    -fx-scale-x: 0.88; /* Shrink button width by 5% */
+    -fx-scale-y: 0.88; /* Shrink button height by 5% */
+}
+
+.labelregister:hover {
+    -fx-text-fill: #340000; 
+    -fx-underline: true; /* Underline text on hover */
+}
+
+.labelregister:pressed {
+    -fx-scale-x: 0.81; 
+    -fx-scale-y: 0.81; 
+}
+
+.labelregister2:hover {
+    -fx-text-fill: #494991; 
+
+    -fx-underline: true; /* Underline text on hover */
+}
+
+.labelregister2:pressed {
+    -fx-scale-x: 0.81; 
+    -fx-scale-y: 0.81; 
+}
+
+.applybtn {
+    -fx-background-color:  #FFFFFF;
+    -fx-background-radius: 20px;
+    -fx-padding: 10px 20px;
+    -fx-border-color: #000000; /* Set initial border color to black */
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px; /* Apply border radius */
+    -fx-cursor: hand;
+}
+
+.applybtn:hover {
+    -fx-background-color: #000000; /* Change background color on hover */
+    -fx-border-color: transparent; /* Remove border on hover */
+    -fx-text-fill: #f4f4f4; 
+}
+
+.applybtn:pressed {
+    -fx-scale-x: 0.88; /* Shrink button width by 5% */
+    -fx-scale-y: 0.88; /* Shrink button height by 5% */
+}
+
+
+.labelHome {
+    -fx-text-fill: #333333;
+    -fx-padding: 5px;
+    -fx-cursor: hand;
+}
+
+.labelHome:hover {
+    -fx-text-fill: #fefefe; 
+    -fx-underline: true; /* Underline text on hover */
+    
+}
+
+.labelHome:pressed {
+    -fx-scale-x: 0.85; /* Shrink label width by 10% */
+    -fx-scale-y: 0.85; /* Shrink label height by 10% */
+}
+
+
+
+.anchorr {
+    -fx-background-color: linear-gradient(to bottom, #e3d7b4, #6595d3);
+    -fx-background-radius: 10px; /* Set the background border radius */
+    -fx-border-radius: 10px; /* Set the border radius */
+}
+
+.anchor2 {
+    -fx-background-color: white;
+    -fx-background-color: rgba(255, 255, 255, 0.9); /* Adjust the opacity (last parameter) as needed */
+    
+    -fx-border-color: black;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+.anchorpanee {
+    -fx-background-color: linear-gradient(#e3d7b4, #6595d3);
+    -fx-border-width: 1px; /* Set the border width */
+    -fx-border-radius: 25px; /* Set the border radius for all corners */
+    -fx-background-radius: 0 200px 0 0; /* Set the background radius for the top-right corner */
+}
+
+
+
+.textdetails {
+    -fx-background-color: #FFFFFF; /* Grey background */
+    -fx-background-radius: 20px;
+    -fx-border-radius: 11px; /* Border radius */
+    -fx-padding: 10px; /* Add padding for better appearance */
+    -fx-border-insets: 0; /* Ensure no border insets */
+}
+
+.choice-box {
+    -fx-background-color: #f2f2f2; /* Grey background */
+    -fx-border-color: #cccccc; /* Grey border */
+    -fx-border-radius: 5px; /* Border radius */
+    -fx-padding: 10px; /* Add padding for better appearance */
+    -fx-border-insets: 0; /* Ensure no border insets */
+}
+
+.combo-box {
+    -fx-background-color: white;
+    -fx-background-radius: 20; /* Adjust the value to change the roundness of the border */
+    -fx-border-radius: 10; /* Adjust the value to change the roundness of the border */
+}
+
+.rectangle {
+    -fx-background-color: #f0f0f0; /* Set the background color */
+    -fx-border-color: #ccc; /* Set the border color */
+    -fx-border-width: 1px; /* Set the border width */
+    -fx-border-radius: 5px; /* Set the border radius for all corners */
+    -fx-border-top-right-radius: 10px; /* Set the border radius for the upper-right corner */
+}
+
+.textfieldLogin {
+    -fx-background-color: transparent; 
+    -fx-background-insets: 0; 
+    -fx-padding: 0.222222em 0.555555em 0 0.666667em; 
+    -fx-border-color: #000000; 
+    -fx-text-fill: #000000;
+    -fx-border-width: 0 0 1px 0; 
+    -fx-border-radius: 0; 
+}
+
+
+.textfieldLogin2 {
+    -fx-background-color: transparent; 
+    -fx-background-insets: 0; 
+    -fx-padding: 0.222222em 0.555555em 0.5em 0.666667em; /* Increased bottom padding */
+    -fx-border-color: #000000; 
+    -fx-text-fill: #000000;
+    -fx-prompt-text-fill: rgb(0, 0, 0);
+    -fx-border-width: 0 0 1px 0; 
+    -fx-border-radius: 0; 
+}
+
+.textfieldLogin3 {
+    -fx-background-color: transparent; 
+    -fx-background-insets: 0; 
+    -fx-padding: 0.222222em 0.555555em 0.5em 0.666667em; /* Increased bottom padding */
+    -fx-border-color: #000000; 
+    -fx-text-fill: #000000;
+    -fx-prompt-text-fill: rgb(0, 0, 0);
+    -fx-border-width: 0 0 1px 0; 
+    -fx-border-radius: 0; 
+}
+
+
+
+.choice-button {
+    -fx-background-color: transparent; /* Set transparent background */
+}
+
+/* Style for the bullet inside the User Choice Button */
+.choice-button .radio {
+    -fx-background-color: green;
+    -fx-background-color: red; /* Set bullet color for unselected */
+}
+
+/* Style for the bullet inside the selected User Choice Button */
+.choice-button:selected .radio {
+    -fx-background-color: green; /* Set bullet color for selected */
+}
+.slider .track {
+    -fx-background-color: #75A8E9; /* Change the color to your desired background color */
+    -fx-background-radius: 20px; /* Adjust the corner radius of the slider track */
+    -fx-padding: 0 0 35 0; 
+}
+
+/* Customize the thumb (slider handle) */
+.slider .thumb {
+    -fx-background-color: #FFE8AC; /* Change the color to your desired thumb color */
+    -fx-padding: 13px; 
+}
+
+
+
+
+
+
+
+
+
+
